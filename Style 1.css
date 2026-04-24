@@ -1,0 +1,119 @@
+body{  
+    margin: 0;
+    font-family: arial, sans-serif;
+    background: linear-gradient(130deg, #2D0F3F, #07031C);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+header h1{
+    text-align: center;
+}
+
+header img{
+    border-radius: 100px;
+    text-align: left;
+}
+
+
+nav{
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    background-color: #5D2B7E;
+    padding: 10px;border-radius: 10px;
+
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #160C3D;
+}
+
+section{
+    color: whitesmoke;
+    padding: 40px 20px;
+    background-color: #463688;
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 0px 15px 20px #07031C;
+    height: 400px;
+}
+
+section h3, a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 30px;
+    padding: 30px;
+
+}
+
+section a:hover{
+    background-color: #07031C;
+}
+
+h2{
+    text-align: center;
+    color: #ffffff;
+}
+
+ul{
+    max-width: 400px;
+    margin: auto;
+}
+
+li{
+    padding: 5px;
+}
+
+.Project{
+    border: 1px solid #e7dcdc;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #e7dcdc;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input, button {
+    width: 300px; /* same width */
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #463688;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
