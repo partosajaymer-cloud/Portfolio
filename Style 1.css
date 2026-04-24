@@ -50,11 +50,11 @@ section{
     height: 400px;
 }
 
-section h3, a{
+section a{
     color: whitesmoke;
     text-decoration: none;
     margin: 30px;
-    padding: 30px;
+    
 
 }
 
