@@ -117,7 +117,8 @@ footer{
 }
 
 input, form {
-  field-sizing: content; 
-  min-width: 50px;       
+  field-sizing: content;
+  
+  width: 50px;       
   max-width: 300px;     
 }
