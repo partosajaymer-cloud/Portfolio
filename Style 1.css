@@ -119,6 +119,6 @@ footer{
 input, form {
   field-sizing: content;
   
-  width: 50px;       
+  width: 200px;       
   max-width: 300px;     
 }
