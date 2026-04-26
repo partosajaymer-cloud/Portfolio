@@ -116,4 +116,8 @@ footer{
     padding: 10px;
 }
 
-
+input, form {
+  field-sizing: content; 
+  min-width: 50px;       
+  max-width: 300px;     
+}
